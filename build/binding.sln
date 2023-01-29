@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuiohook", "libuiohook.vcxproj", "{E05B480C-D861-B06A-AD61-AD50FD0E8D36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uiohook_napi", "uiohook_napi.vcxproj", "{7F426910-38D9-A691-43C7-EE9551B2B6C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E05B480C-D861-B06A-AD61-AD50FD0E8D36} = {E05B480C-D861-B06A-AD61-AD50FD0E8D36}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F426910-38D9-A691-43C7-EE9551B2B6C7}.Debug|x64.ActiveCfg = Debug|x64
+		{7F426910-38D9-A691-43C7-EE9551B2B6C7}.Debug|x64.Build.0 = Debug|x64
+		{7F426910-38D9-A691-43C7-EE9551B2B6C7}.Release|x64.ActiveCfg = Release|x64
+		{7F426910-38D9-A691-43C7-EE9551B2B6C7}.Release|x64.Build.0 = Release|x64
+		{E05B480C-D861-B06A-AD61-AD50FD0E8D36}.Debug|x64.ActiveCfg = Debug|x64
+		{E05B480C-D861-B06A-AD61-AD50FD0E8D36}.Debug|x64.Build.0 = Debug|x64
+		{E05B480C-D861-B06A-AD61-AD50FD0E8D36}.Release|x64.ActiveCfg = Release|x64
+		{E05B480C-D861-B06A-AD61-AD50FD0E8D36}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
