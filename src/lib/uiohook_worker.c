@@ -65,6 +65,7 @@ void worker_dispatch_proc(uiohook_event* const event) {
 
   case EVENT_KEY_PRESSED:
   case EVENT_KEY_RELEASED:
+    event->reserved = 0x1;
   // case EVENT_KEY_TYPED:
   case EVENT_MOUSE_CLICKED:
   case EVENT_MOUSE_PRESSED:
